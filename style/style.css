@@ -1,0 +1,142 @@
+.about-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Quote{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.about-container2{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.About2{
+    color:white;
+    margin-top: 50px;
+    border:1px solid lightgrey;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    width: 80%;
+    height:100%;
+    display:grid;
+    justify-content: center; 
+    font-family: "Oswald", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.About{
+    border-radius: 15px;
+    margin-top: 50px;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 80%;
+    height:50vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;  
+}
+.background1{
+    position: relative;
+}
+.background2{
+    position:absolute;
+    display: flex;
+}
+
+
+body{
+    background-image: url("./parrish-freeman-K2W8TIxcuko-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-container{
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    font-weight:600;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin:50px;
+    width:360px;
+    height:auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.details{
+    padding-left:10px;
+}
+a{
+    text-decoration:none;
+}
+
+.image-container {
+  width: 200px;
+  height: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 40px 80px;
+  }
+  
+  .footer .copy {
+    color: black;
+  }
+  
+  .bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .bottom-links .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .bottom-links .links span {
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  .bottom-links .links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+  }
